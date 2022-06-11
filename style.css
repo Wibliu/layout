@@ -1,0 +1,100 @@
+* {
+  padding: 0.6vh;
+  margin: 0px;
+}
+body {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(250, 235, 215, 0.781);
+}
+
+.fundo {
+  background-image: url("img/fundo.2.jpg");
+  width: 34vmax;
+  height: 95vmin;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5%;
+}
+
+.saudacao {
+  position: relative;
+  color: aliceblue;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.9em;
+  text-align: center;
+  top: 9vh;
+ 
+}
+
+.informacao {
+  color: whitesmoke;
+  position: relative;
+  font-family: "Courier New", Courier, monospace;
+  justify-content: center;
+  margin: 3vh;
+  top: 20%;
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(20px);
+  border-radius: 20px;
+}
+
+.notificacoes {
+  position: relative;
+  font-family: "Courier New", Courier, monospace;
+  justify-content: center;
+  top: 30%;
+  color: aliceblue;
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(20px);
+  border-radius: 20px;
+}
+
+.notificacoes img {
+  position: relative;
+  width: 7vh;
+  height: 6vh;
+  border-radius: 50%;
+}
+.mensagens {
+  color: aliceblue;
+  display: grid;
+  grid-auto-flow: column;
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(20px);
+  border-radius: 30px;
+  margin: 1vh;
+  position: relative;
+}
+
+.email {
+  color: aliceblue;
+  display: grid;
+  grid-auto-flow: column;
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(20px);
+  border-radius: 30px;
+  margin: 1vh;
+}
+
+
+@media screen and (min-width:315px) and (max-width:820px) {
+  .fundo {
+    background-image: url("img/fundo.2.jpg");
+    width: 34vmax;
+    height: 200vmin;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5%;
+  }
+  .notificacoes {
+    position: relative;
+    font-family: "Courier New", Courier, monospace;
+    justify-content: center;
+    top: 25%;
+    color: aliceblue;
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+  }
+}
